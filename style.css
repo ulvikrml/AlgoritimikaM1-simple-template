@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+header .content{
+    display: flex;
+    justify-content: space-between;
+}
+header .properties{
+    display: flex;
+}
+header .properties .card{
+    display: flex;
+    margin-right: 30px;
+}
+header .properties .card p{
+    width: 100%;
+    display: block;
+}
