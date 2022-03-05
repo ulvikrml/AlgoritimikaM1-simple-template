@@ -1,0 +1,12 @@
+.about-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-content-text {
+    margin-right: 10%;
+}
+
+.about-content-image {
+    width: 30%;
+}
