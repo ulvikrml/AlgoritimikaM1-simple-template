@@ -1,0 +1,23 @@
+/* htw means how to watch */
+.htw_content{
+    display: flex;
+    justify-content: space-between;
+}
+.htw_content_text{
+    max-width: 500px;
+}
+.htw_main_title{
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size: 80px;
+    padding: 30px 0px 15px;
+}
+.htw_main_text{
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+}
+.htw_content_image{
+    margin: 20px 180px 0px 0px;
+}
