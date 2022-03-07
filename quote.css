@@ -1,0 +1,24 @@
+.quote{
+    padding: 70px 200px;
+}
+.quote_item{
+    width: 483.63px;
+    height: 200px;
+    padding: 25px;
+    margin: auto;
+    background: #1E4681;
+    border-radius: 5px;
+    color: white;
+}
+.quote_item .text{
+    font-family: Roboto Slab;
+    font-size: 25px;
+    line-height: 130%;
+}
+.quote_item .author{
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: right;
+    margin-top: 5px;
+}

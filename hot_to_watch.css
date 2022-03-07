@@ -4,13 +4,14 @@
     justify-content: space-between;
 }
 .htw_content_text{
-    max-width: 500px;
+    max-width: 600px;
 }
 .htw_main_title{
     font-family: Roboto Slab;
     font-weight: bold;
     font-size: 80px;
     padding: 30px 0px 15px;
+    line-height: 100%;
 }
 .htw_main_text{
     font-family: Roboto;
