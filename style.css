@@ -7,3 +7,10 @@
 .container-padding{
     padding: 0 50px;
 }
+.title{
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    margin-bottom: 100px;
+}
