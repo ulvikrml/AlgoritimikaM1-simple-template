@@ -10,7 +10,6 @@
 .title{
     font-family: Roboto Slab;
     font-weight: bold;
-    font-size: 55px;
+    font-size: 50px !important;
     line-height: 101.38%;
-    margin-bottom: 100px;
 }
