@@ -4,7 +4,8 @@
     justify-content: space-between;
 }
 .htw_content_text{
-    max-width: 600px;
+    /* max-width: 600px; */
+    flex-grow: 2;
 }
 .htw_main_title{
     font-family: Roboto Slab;
@@ -20,5 +21,11 @@
     line-height: 150%;
 }
 .htw_content_image{
-    margin: 20px 180px 0px 0px;
+    padding: 20px 180px 0px 0px;
+    flex-grow: 1;
+}
+@media screen and (max-width:900px){
+    .htw_content{
+        flex-direction: column;
+    }
 }

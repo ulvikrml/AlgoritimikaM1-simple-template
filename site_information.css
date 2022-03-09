@@ -5,7 +5,7 @@
 }
 .site_information_item{
     display: flex;
-
+    min-width: 160px;
 }
 .site_information_item p{
     font-family: Roboto;
