@@ -1,5 +1,6 @@
 .lessons-format-items {
     display: flex;
+    margin-top: 50px;
 }
 
 @media (max-width: 991px) {
@@ -14,4 +15,5 @@
 
 .lessons-format-item-title {
     color: #1E4681;
+    margin-bottom: 10px;
 }

@@ -4,6 +4,10 @@ body {
     margin: 0;
     font-family: Roboto;
 }
+*{
+    padding: 0;
+    margin: 0;
+}
 
 body > * {
     padding-inline: 10%;
@@ -12,13 +16,14 @@ body > * {
 
 .title {
     font-family: "Roboto Slab";
-    font-size: 26px;
+    font-size: 40px;
     font-weight: 700;
     margin-top: 10%;
 }
 
 .title.big-title {
-    font-size: 46px;
+    font-size: 56px;
+    margin-block: 5% 3%;
 }
 
 .footer {

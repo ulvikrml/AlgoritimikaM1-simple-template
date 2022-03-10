@@ -5,7 +5,6 @@
 .about-main {
     display: flex;
 }
-
 @media (max-width: 991px) {
     .about-main {
         flex-direction: column;
@@ -24,6 +23,7 @@
 .about-main-text {
     flex-grow: 3;
     margin-right: 15%;
+    padding-top: 20px;
 }
 
 .about-main-image {
