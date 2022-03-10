@@ -1,15 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Roboto+Slab:wght@100;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Roboto+Slab:wght@100;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+body {
     margin: 0;
+    font-family: Roboto;
+}
+
+body > * {
+    padding-inline: 10%;
+    overflow: auto;
+}
+
+.title {
+    font-family: "Roboto Slab";
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 10%;
+}
+
+.title.big-title {
+    font-size: 46px;
+}
+
+.footer {
     padding: 0;
-    box-sizing: border-box;
+    margin-top: 8vw;
+    width: 100vw;
 }
-.container-padding{
-    padding: 0 50px;
-}
-.title{
-    font-family: Roboto Slab;
-    font-weight: bold;
-    font-size: 50px !important;
-    line-height: 101.38%;
+
+.footer > * {
+    padding-inline: 10%;
 }

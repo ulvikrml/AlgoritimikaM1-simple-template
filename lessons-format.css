@@ -1,0 +1,17 @@
+.lessons-format-items {
+    display: flex;
+}
+
+@media (max-width: 991px) {
+    .lessons-format-items {
+        flex-direction: column;
+    }
+}
+
+.lessons-format-item {
+    margin-right: 5%;
+}
+
+.lessons-format-item-title {
+    color: #1E4681;
+}

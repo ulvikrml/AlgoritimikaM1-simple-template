@@ -1,10 +1,8 @@
-.comment{
-    background: #EFEFEF;
-    padding-top: 50px;
-    padding-bottom: 80px;
-    margin-top: 120px;
+.customer-satisfaction {
+    background-color: #EFEFEF;
 }
-.comment_card{
+
+.comment-card{
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     background: white;
     border-radius: 30px;
@@ -13,21 +11,21 @@
     padding: 40px;
     margin-top: 50px;
 }
-.comment_card_text{
+.comment-card-text{
     font-family: Roboto;
     font-size: 20px;
     line-height: 150%;
 }
-.comment_card_user{
+.comment-card-user{
     display: flex;
     align-items: center;
     margin-top: 30px;
 }
-.comment_user_info h4{
+.comment-user-info h4{
     font-family: Roboto Slab;
     font-weight: bold;
     font-size: 30px;
 }
-.comment_user_img{
+.comment-user-img{
     margin-right: 20px;
 }
