@@ -12,13 +12,13 @@ body > * {
 
 .title {
     font-family: "Roboto Slab";
-    font-size: 26px;
+    font-size: 55px;
     font-weight: 700;
     margin-top: 10%;
 }
 
 .title.big-title {
-    font-size: 46px;
+    font-size: 80px;
 }
 
 .footer {
