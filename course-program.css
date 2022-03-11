@@ -3,6 +3,9 @@
     flex-wrap: wrap;
     justify-content: flex-start;
 }
+.course-program{
+    overflow-x: hidden;
+}
 
 .course-program-card {
     border-radius: 30px;
@@ -21,6 +24,7 @@
 
     .course-program-card {
         width: 90%;
+        margin-bottom: 20px;
     }
 }
 
