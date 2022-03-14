@@ -1,0 +1,22 @@
+.lessons-format-items {
+    display: flex;
+    margin-top: 50px;
+}
+
+@media (max-width: 991px) {
+    .lessons-format-items {
+        flex-direction: column;
+    }
+    .lessons-format-item{
+        margin-bottom: 15px;
+    }
+}
+
+.lessons-format-item {
+    margin-right: 5%;
+}
+
+.lessons-format-item-title {
+    color: #1E4681;
+    margin-bottom: 10px;
+}

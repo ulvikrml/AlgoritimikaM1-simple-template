@@ -1,0 +1,43 @@
+.footer-contact{
+    background: black;
+    height: 200px;
+    padding-block: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo-white{
+    width: 115px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.contact-box{
+    display: flex;
+    justify-content: space-between;
+}
+.social-links img{
+    margin-right: 10px;
+}
+.call-info-item{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-bottom: 20px;
+}
+.call-info-item img{
+   margin-right: 15px;
+}
+.copyright{
+    color: white;
+}
+
+@media screen and (max-width: 991px){
+    .contact-box{
+        flex-direction: column;
+        height: 270px;
+    }
+    .footer-contact{
+        height: 340px;
+    }
+}

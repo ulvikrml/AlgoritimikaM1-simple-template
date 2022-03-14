@@ -1,0 +1,45 @@
+.course-pricing{
+    background: #9DC9C8;
+    padding-block: 80px;
+}
+
+.course-pricing .title{
+    margin-top: 0%;
+}
+.price-box{
+    margin-block: 50px;
+}
+.sub-price-text{
+    font-size: 23px;
+}
+.price-value{
+    font-size: 70px;
+}
+.register-info{
+    display: flex;
+}
+.register-info-item{
+    max-width: 300px;
+    margin-right: 10%;
+}
+.register-info-item-title{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.register-info-item-text{
+    font-size: 18px;
+}
+@media screen and (max-width: 991px) {
+    .sub-price-text{
+        font-size: 16px;
+    }
+    .price-value{
+        font-size: 47px;
+    }
+    .register-info-item-title{
+        font-size: 18px;
+    }
+    .register-info-item-text{
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,51 @@
+.customer-satisfaction {
+    background-color: #EFEFEF;
+    padding-block: 80px;
+}
+.customer-satisfaction .title{
+    margin-top: 0%;
+}
+.comment-card{
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    background: white;
+    border-radius: 30px;
+    width: 75%;
+    height: 30%;
+    padding: 40px;
+    margin-top: 50px;
+}
+.comment-card-text{
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 150%;
+}
+.comment-card-user{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.comment-user-info h4{
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.comment-user-img{
+    margin-right: 20px;
+}
+@media screen and (max-width: 991px) {
+    .comment-user-img img{
+        width: 120px;
+    }
+    .comment-user-info h4{
+        font-size: 26px;
+    }
+}
+@media (max-width:572px){
+    .comment-card-text{
+        font-size: 16px;
+    }
+    .comment-user-info h4{
+        font-size: 22px;
+    }
+}
