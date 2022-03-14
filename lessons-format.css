@@ -7,6 +7,9 @@
     .lessons-format-items {
         flex-direction: column;
     }
+    .lessons-format-item{
+        margin-bottom: 15px;
+    }
 }
 
 .lessons-format-item {

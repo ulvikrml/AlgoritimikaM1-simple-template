@@ -52,3 +52,12 @@
     font-size: 0.8em;
     margin-bottom: 0;
 }
+
+@media screen and (max-width:572px) {
+    .how-to-watch-quote {
+        padding: 4%;
+        color: white;
+        font-size: 5.3vw;
+        width: 80%;
+    }   
+}

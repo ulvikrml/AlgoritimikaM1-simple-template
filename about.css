@@ -1,7 +1,3 @@
-.about {
-
-}
-
 .about-main {
     display: flex;
 }
@@ -17,6 +13,18 @@
 
     .about-end-image {
         display: none;
+    }
+}
+@media screen and (max-width: 572px) {
+    .about-main {
+        font-size: 17px;
+    }
+    .schedule-item-title {
+        font-size: 20px !important;
+    }
+    
+    .schedule-item-text {
+        font-size: 15px !important;
     }
 }
 

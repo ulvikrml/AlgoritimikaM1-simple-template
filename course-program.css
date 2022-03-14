@@ -23,8 +23,18 @@
     }
 
     .course-program-card {
-        width: 90%;
-        margin-bottom: 20px;
+        width: 65%;
+        margin-top: 20px !important;
+        margin: auto;
+    }
+}
+@media (max-width:572px){
+    .course-program-card-title {
+        font-size: 22px !important; 
+    }
+    
+    .course-program-card-description {
+        font-size: 18px !important;
     }
 }
 
