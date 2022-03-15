@@ -6,3 +6,19 @@
 .things-to-learn-items li{
     font-size: 18px;
 }
+@media (max-width:991px) {
+    .things-to-learn-items {
+        width: 70%;
+    }
+    .things-to-learn-items li{
+        font-size: 16px;
+    }
+}
+@media (max-width:572px) {
+    .things-to-learn-items {
+        width: 75%;
+    }
+    .things-to-learn-items li{
+        font-size: 15px;
+    }
+}

@@ -37,6 +37,16 @@
         font-size: 18px !important;
     }
 }
+@media (max-width:384px){
+    .course-program-card-title {
+        font-size: 18px !important; 
+        margin-bottom: 5px;
+    }
+    
+    .course-program-card-description {
+        font-size: 14px !important;
+    }
+}
 
 .course-program-card-image {
     width: 100%;

@@ -43,9 +43,23 @@
 }
 @media (max-width:572px){
     .comment-card-text{
-        font-size: 16px;
+        font-size: 14px;
     }
     .comment-user-info h4{
-        font-size: 22px;
+        font-size: 18px;
+    }
+    .comment-user-img{
+        margin-inline: -15px 0px;
+    }
+}
+@media (max-width:384px){
+    .comment-card-text{
+        font-size: 11px;
+    }
+    .comment-user-info h4{
+        font-size: 15px;
+    }
+    .comment-user-img{
+        margin-inline: -15px 0px;
     }
 }

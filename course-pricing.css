@@ -43,3 +43,40 @@
         font-size: 16px;
     }
 }
+@media screen and (max-width: 572px) {
+    .sub-price-text{
+        font-size: 14px;
+    }
+    .price-value{
+        font-size: 37px;
+    }
+    .register-info-item-title{
+        font-size: 14px;
+    }
+    .register-info-item-text{
+        font-size: 12px;
+    }
+    .register-info-item{
+        margin-right: 3%;
+    }
+    .price-box{
+        margin-block: 30px;
+    }
+}
+/* @media screen and (max-width: 384px) {
+    .sub-price-text{
+        font-size: 16px;
+    }
+    .price-value{
+        font-size: 47px;
+    }
+    .register-info-item-title{
+        font-size: 18px;
+    }
+    .register-info-item-text{
+        font-size: 16px;
+    }
+    .register-info-item{
+        margin-right: 3%;
+    }
+} */
