@@ -12,3 +12,11 @@
 .site-information-item .material-icons {
     margin-right: 2px;
 }
+@media (max-width:572px) {
+    .site-information-item{
+        font-size: 14px;
+    }
+    .site-information-item span{
+        font-size: 14px;
+    }
+}

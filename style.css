@@ -16,7 +16,7 @@ body > * {
 
 .title {
     font-family: "Roboto Slab";
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 700;
     margin-top: 10%;
 }
@@ -24,6 +24,23 @@ body > * {
 .title.big-title {
     font-size: 56px;
     margin-block: 5% 3%;
+}
+@media (max-width:991px) {
+    .title{
+        font-size: 35px;
+    }
+    .title.big-title {
+        font-size: 40px;
+    }
+}
+@media (max-width:572px) {
+    .title{
+        font-size: 28px;
+    }
+    .title.big-title {
+        font-size: 33px;
+        margin-block: 5% 3%;
+    }
 }
 
 .footer {
